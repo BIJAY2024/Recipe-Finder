@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+width: 100%;
+box-sizing: border-box;
+}
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+header{
+  background-color: rgb(12, 12, 12);
+}
+.navigation{
+  display: flex;
+  justify-content: space-between; 
+  padding: 1.8em;
+  border-radius: 50px; 
+}
+.logo{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+#search{
+  border-radius: 8px;
+  text-align: center;
+  border: none;
+  max-width: 80%;
+  padding: 0.5em;
+}
+.placeholder{
+ font-size: 1rem;
+}
+#button{
+  background-color: aqua;
+  max-width: 6em;
+  padding: 0.6em;
+  border: none;
+  border-radius: 8px;
+  margin-left: 3em;
+  font-weight: bolder;
+}
+#button:hover{
+  background-color: rgb(14, 226, 226);
+}
+.article{
+  border: 1px solid black;
+  padding: 1em 1em;
+  margin-top: 2em;
+}
+.title h1{
+  color: green;
+}
